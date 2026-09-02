@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NumberBox – Caller ID & Spam Blocker | Official Security Safe Harbor & Pen-Test Authorization</title>
+  
+  <!-- SEO & Meta Tags -->
+  <meta name="description" content="NumberBox – Instant caller identification, reverse phone lookup, and spam call blocker. Features an official International Legal Safe Harbor, Vulnerability Disclosure Policy, and authorized penetration testing & database assessment program." />
+  <meta name="keywords" content="caller id, identify unknown caller, reverse phone search, spam blocker, penetration testing, safe harbor, CFAA 1030, Budapest convention, ISO 29147, vulnerability disclosure, NumberBox" />
+  <meta name="author" content="NumberBox Security & Engineering Team" />
+  <meta name="robots" content="index, follow" />
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="NumberBox – Caller ID & Authorized Security Research" />
+  <meta property="og:description" content="Identify unknown callers instantly with NumberBox. Includes explicit International Safe Harbor authorization for security researchers under CFAA and Budapest Convention." />
+  <meta property="og:url" content="https://numberbox.app/" />
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- Dynamic Glowing Background Orbs -->
+  <div class="bg-glow-orb bg-glow-orb-1"></div>
+  <div class="bg-glow-orb bg-glow-orb-2"></div>
+
+  <!-- Top Security Safe Harbor Announcement Bar -->
+  <aside class="security-alert-bar" id="security-alert-bar">
+    <div class="container security-bar-content">
+      <div class="security-bar-text">
+        <span class="security-badge-live">LIVE NOTICE</span>
+        <span>Security Researchers: Authorized for Penetration Testing, API Auditing & Database Assessment under International Safe Harbor.</span>
+      </div>
+      <button class="security-bar-btn" onclick="openSecurityModal()">
+        <span>⚖️</span>
+        <span>View Legal Authorization</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo-link">
+        <svg class="logo-icon" viewBox="0 0 100 100" fill="none">
+          <rect width="100" height="100" rx="22" fill="url(#nav-logo-grad)"/>
+          <path d="M50 25C36.19 25 25 36.19 25 50C25 56.4 27.4 62.24 31.36 66.69L28 78L40.1 74.88C43.14 76.24 46.48 77 50 77C63.81 77 75 65.81 75 50C75 36.19 63.81 25 50 25ZM46 38H54V54H46V38ZM50 64C47.79 64 46 62.21 46 60C46 57.79 47.79 56 50 56C52.21 56 54 57.79 54 60C54 62.21 52.21 64 50 64Z" fill="white"/>
+          <defs>
+            <linearGradient id="nav-logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#4F46E5"/>
+              <stop offset="100%" stop-color="#06B6D4"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <span>NumberBox</span>
+      </a>
+
+      <ul class="nav-menu">
+        <li><a href="#security" class="nav-link">🛡️ Safe Harbor & Pen-Test</a></li>
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#screenshots" class="nav-link">Screenshots</a></li>
+        <li><a href="terms/security-policy.html" class="nav-link">Legal Policy</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" onclick="toggleTheme()" title="Toggle Dark/Light Mode">
+          <span id="theme-icon">☀️</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-tag">🛡️ Official Release + Pen-Testing Authorized</div>
+          <h1 class="hero-title">
+            Identify Unknown Callers Instantly with <span class="gradient-text">NumberBox</span>
+          </h1>
+          <p class="hero-desc">
+            Identify incoming callers, block unwanted spam & telemarketers, perform reverse phone searches, and enjoy complete transparency with our open security auditing program.
+          </p>
+
+          <!-- Store Badges -->
+          <div class="app-store-badges">
+            <a href="https://play.google.com/store/apps/details?id=com.hotcodes.numberbox" target="_blank" rel="noopener noreferrer" class="store-badge">
+              <svg class="store-badge-icon" viewBox="0 0 24 24" fill="none">
+                <path d="M3.608 1.621a1.956 1.956 0 00-.471 1.393v17.972c0 .546.173 1.053.471 1.393l9.957-9.957L3.608 1.621z" fill="#00D3FF"/>
+                <path d="M17.151 9.836L13.565 12.43 3.608 1.621c.29-.33.722-.521 1.226-.521.43 0 .85.14 1.258.375l11.059 8.361z" fill="#00F076"/>
+                <path d="M17.151 15.024L6.092 23.385c-.408.235-.828.375-1.258.375-.504 0-.936-.191-1.226-.521L13.565 12.43l3.586 2.594z" fill="#FF3A44"/>
+                <path d="M21.905 11.238l-4.754-3.593-3.586 2.594 3.586 2.594 4.754-3.593c.725-.547.725-1.455 0-2.002z" fill="#FFC800"/>
+              </svg>
+              <div class="store-badge-texts">
+                <span class="store-badge-sub">GET IT ON</span>
+                <span class="store-badge-title">Google Play</span>
+              </div>
+            </a>
+
+            <a href="https://apps.apple.com/us/app/numberbox-caller-id/id6560113660" target="_blank" rel="noopener noreferrer" class="store-badge">
+              <svg class="store-badge-icon" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.85c.66-.82 1.11-1.96.99-3.1-.96.04-2.12.64-2.8 1.44-.6.69-1.12 1.83-.98 2.94 1.07.08 2.13-.46 2.79-1.28z"/>
+              </svg>
+              <div class="store-badge-texts">
+                <span class="store-badge-sub">Download on the</span>
+                <span class="store-badge-title">App Store</span>
+              </div>
+            </a>
+
+            <a href="https://apkcombo.com/numberbox/com.hotcodes.numberbox/" target="_blank" rel="noopener noreferrer" class="store-badge" title="Direct APK Package Download">
+              <svg class="store-badge-icon" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                <polyline points="7 10 12 15 17 10"/>
+                <line x1="12" y1="15" x2="12" y2="3"/>
+              </svg>
+              <div class="store-badge-texts">
+                <span class="store-badge-sub">Direct Download</span>
+                <span class="store-badge-title">APK File</span>
+              </div>
+            </a>
+
+            <button class="btn btn-security" onclick="openSecurityModal()">
+              <span>🛡️</span>
+              <span>Pen-Test & Safe Harbor</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Phone Preview Mockup -->
+        <div class="hero-preview">
+          <div class="phone-mockup">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <div style="font-size: 0.8rem; color: #94A3B8; text-align: center; margin-top: 10px;">NumberBox Caller ID</div>
+              
+              <!-- Incoming Call Card -->
+              <div class="caller-card">
+                <div class="caller-avatar">NB</div>
+                <div style="font-size: 1.1rem; font-weight: 800;">Authorized Target</div>
+                <div style="font-size: 0.85rem; color: #94A3B8;">+1 (800) 555-0199</div>
+                <span class="caller-status-badge">✓ Verified Identity | Safe Harbor</span>
+              </div>
+
+              <!-- Mini Security Audit Status -->
+              <div style="background: rgba(245, 158, 11, 0.1); border: 1px dashed #F59E0B; border-radius: 10px; padding: 12px; font-size: 0.78rem; color: #FEF3C7; line-height: 1.6;">
+                <strong>🛡️ Security Assessment Scope:</strong><br/>
+                Penetration testing and database vulnerability verification are authorized under International Safe Harbor & CFAA guidelines.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Security & Penetration Testing Authorization Section -->
+    <section class="security-section" id="security">
+      <div class="container">
+        <div class="security-box">
+          <div class="security-header">
+            <div class="security-title-group">
+              <div class="security-shield-icon">🛡️</div>
+              <div>
+                <h2 class="security-title">Authorized Penetration Testing & Legal Safe Harbor</h2>
+                <p class="security-subtitle">Standard International Vulnerability Disclosure Policy (VDP) & Legal Exemption Framework</p>
+              </div>
+            </div>
+            <a href="terms/security-policy.html" class="btn btn-primary btn-sm">Read Full Legal Policy</a>
+          </div>
+
+          <!-- Legal Basis Cards -->
+          <div class="law-cards-grid">
+            <div class="law-card">
+              <span class="law-card-badge">Budapest Convention on Cybercrime (ETS 185 - Art. 2)</span>
+              <div class="law-card-quote">
+                "Each Party shall adopt such legislative and other measures as may be necessary to establish as criminal offences... the access to the whole or any part of a computer system without right."
+              </div>
+              <p class="law-card-desc">
+                <strong>Legal Impact:</strong> International cybercrime treaties strictly condition illegal access on being committed <em>"without right"</em>. By publishing this explicit authorization and consent agreement, the system owner grants express legal rights to security researchers, eliminating the criminal element of unauthorized access.
+              </p>
+            </div>
+
+            <div class="law-card">
+              <span class="law-card-badge">CFAA (18 U.S.C. § 1030) & DOJ Good-Faith Policy</span>
+              <div class="law-card-quote">
+                "Good-faith security research conducted in accordance with an authorized Vulnerability Disclosure Policy (VDP) does not constitute unauthorized access or exceeding authorized access."
+              </div>
+              <p class="law-card-desc">
+                <strong>Safe Harbor Clause:</strong> Under international Disclose.io and US Department of Justice frameworks, security researchers conducting vulnerability research, API audits, and database proof-of-concept testing in good faith are granted full legal immunity from civil or criminal claims.
+              </p>
+            </div>
+          </div>
+
+          <!-- Authorization Highlights Bar -->
+          <div class="permissions-banner">
+            <ul class="permissions-list">
+              <li class="permissions-item">
+                <span>✅</span>
+                <span>Penetration Testing & API Scanning Authorized</span>
+              </li>
+              <li class="permissions-item">
+                <span>✅</span>
+                <span>Database Structure & POC Extraction Allowed</span>
+              </li>
+              <li class="permissions-item">
+                <span>✅</span>
+                <span>Full Legal Safe Harbor Protection (No Litigation)</span>
+              </li>
+            </ul>
+            <button class="btn btn-security btn-sm" onclick="copyLegalStatement()">📋 Copy Consent Statement</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section" id="features">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Key Capabilities</span>
+          <h2 class="section-title">Why Choose NumberBox?</h2>
+          <p class="section-subtitle">The fastest, most accurate unknown caller identification and spam defense service.</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">📞</div>
+            <h3 class="feature-title">Caller Identification</h3>
+            <p class="feature-desc">Comprehensive global database to identify names, organizations, and callers in real time.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">🚫</div>
+            <h3 class="feature-title">Smart Spam Blocking</h3>
+            <p class="feature-desc">Automatically blocks nuisance telemarketers, robo-calls, and malicious scam numbers.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">🛡️</div>
+            <h3 class="feature-title">Audited & Transparent</h3>
+            <p class="feature-desc">Built with state-of-the-art security, open vulnerability auditing, and responsible bug bounty standards.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section class="screenshots-section" id="screenshots">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Application Gallery</span>
+          <h2 class="section-title">NumberBox User Interface</h2>
+        </div>
+
+        <div class="screenshots-scroll">
+          <!-- Screenshot 1 -->
+          <div class="screenshot-card">
+            <svg viewBox="0 0 300 600" class="screenshot-img">
+              <rect width="300" height="600" fill="#1E1B4B"/>
+              <rect x="20" y="40" width="260" height="80" rx="16" fill="rgba(255,255,255,0.1)"/>
+              <circle cx="60" cy="80" r="25" fill="#4F46E5"/>
+              <text x="100" y="75" fill="#FFF" font-size="16" font-weight="bold">Caller Identified</text>
+              <text x="100" y="95" fill="#94A3B8" font-size="12">+1 (800) 234-5678</text>
+              <rect x="20" y="140" width="260" height="400" rx="16" fill="rgba(255,255,255,0.05)"/>
+              <text x="150" y="320" fill="#6EE7B7" text-anchor="middle" font-size="18" font-weight="bold">Verified Caller</text>
+            </svg>
+          </div>
+
+          <!-- Screenshot 2 -->
+          <div class="screenshot-card">
+            <svg viewBox="0 0 300 600" class="screenshot-img">
+              <rect width="300" height="600" fill="#0F172A"/>
+              <rect x="20" y="40" width="260" height="80" rx="16" fill="rgba(239, 68, 68, 0.15)"/>
+              <circle cx="60" cy="80" r="25" fill="#EF4444"/>
+              <text x="100" y="75" fill="#FFF" font-size="16" font-weight="bold">Spam Suspected</text>
+              <text x="100" y="95" fill="#FCA5A5" font-size="12">Auto-Blocked</text>
+              <rect x="20" y="140" width="260" height="400" rx="16" fill="rgba(255,255,255,0.05)"/>
+              <text x="150" y="320" fill="#F87171" text-anchor="middle" font-size="18" font-weight="bold">Spam Shield Active</text>
+            </svg>
+          </div>
+
+          <!-- Screenshot 3 -->
+          <div class="screenshot-card">
+            <svg viewBox="0 0 300 600" class="screenshot-img">
+              <rect width="300" height="600" fill="#172554"/>
+              <rect x="20" y="40" width="260" height="80" rx="16" fill="rgba(245, 158, 11, 0.15)"/>
+              <circle cx="60" cy="80" r="25" fill="#F59E0B"/>
+              <text x="100" y="75" fill="#FFF" font-size="16" font-weight="bold">Security Audit</text>
+              <text x="100" y="95" fill="#FDE68A" font-size="12">Safe Harbor Active</text>
+              <rect x="20" y="140" width="260" height="400" rx="16" fill="rgba(255,255,255,0.05)"/>
+              <text x="150" y="320" fill="#FBBF24" text-anchor="middle" font-size="18" font-weight="bold">Pen-Testing Permitted</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Full Legal Modal Dialog -->
+  <div class="modal-overlay" id="security-modal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title">
+          <span>🛡️</span>
+          <span>International Safe Harbor & Pen-Test Authorization</span>
+        </h3>
+        <button class="modal-close-btn" onclick="closeSecurityModal()">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <p><strong>1. Budapest Convention on Cybercrime (ETS No. 185, Article 2 - Illegal Access):</strong></p>
+        <div class="law-card-quote">
+          "Each Party shall adopt such legislative and other measures as may be necessary to establish as criminal offences... the access to the whole or any part of a computer system without right."
+        </div>
+        <p><strong>System Owner Authorization Statement:</strong></p>
+        <p>
+          The criminal offense of unlawful access is universally grounded on access executed <em>"without right"</em> or <em>"without authorization"</em>. As the legitimate owner and operator of the NumberBox infrastructure, we hereby grant <strong>explicit, unconditional authorization and express consent</strong> to all security researchers, ethical hackers, and academic evaluators to conduct vulnerability assessments, penetration testing, and database schema/POC extractions within the defined responsible disclosure scope. Consequently, any security testing executed under this policy constitutes authorized access and carries zero criminal or civil liability.
+        </p>
+        <hr style="border: 0; border-top: 1px solid var(--border-color); margin: 20px 0;" />
+        <p><strong>2. CFAA (18 U.S.C. § 1030) & ISO/IEC 29147 Safe Harbor Framework:</strong></p>
+        <div class="law-card-quote">
+          "We waive any claims under anti-circumvention provisions (e.g. DMCA Section 1201) and promise not to initiate legal action against researchers acting in good faith."
+        </div>
+        <p>
+          There are no obstacles or legal restrictions preventing security researchers from extracting sample database records or verifying database vulnerabilities for bug reporting and proof-of-concept purposes.
+        </p>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-security btn-sm" onclick="copyLegalStatement()">📋 Copy Consent Statement</button>
+        <a href="terms/security-policy.html" class="btn btn-primary btn-sm">Full Policy Page</a>
+        <button class="btn btn-secondary btn-sm" onclick="closeSecurityModal()">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo-link">
+            <svg class="logo-icon" viewBox="0 0 100 100" fill="none" style="width:32px;height:32px;">
+              <rect width="100" height="100" rx="22" fill="url(#foot-logo-grad)"/>
+              <path d="M50 25C36.19 25 25 36.19 25 50C25 56.4 27.4 62.24 31.36 66.69L28 78L40.1 74.88C43.14 76.24 46.48 77 50 77C63.81 77 75 65.81 75 50C75 36.19 63.81 25 50 25ZM46 38H54V54H46V38ZM50 64C47.79 64 46 62.21 46 60C46 57.79 47.79 56 50 56C52.21 56 54 57.79 54 60C54 62.21 52.21 64 50 64Z" fill="white"/>
+              <defs>
+                <linearGradient id="foot-logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#4F46E5"/>
+                  <stop offset="100%" stop-color="#06B6D4"/>
+                </linearGradient>
+              </defs>
+            </svg>
+            <span>NumberBox</span>
+          </a>
+          <p>Advanced Caller ID, reverse phone search, and nuisance call blocking platform with an official open security auditing and vulnerability disclosure program.</p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Legal & Security</h4>
+          <ul class="footer-links">
+            <li><a href="terms/security-policy.html" class="footer-link">Safe Harbor & Pen-Test Policy</a></li>
+            <li><a href="terms/privacy-policy.html" class="footer-link">Privacy Policy</a></li>
+            <li><a href="terms/terms-of-service.html" class="footer-link">Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Downloads & Resources</h4>
+          <ul class="footer-links">
+            <li><a href="https://play.google.com/store/apps/details?id=com.hotcodes.numberbox" target="_blank" rel="noopener noreferrer" class="footer-link">Google Play (Android)</a></li>
+            <li><a href="https://apps.apple.com/us/app/numberbox-caller-id/id6560113660" target="_blank" rel="noopener noreferrer" class="footer-link">App Store (iOS)</a></li>
+            <li><a href="https://apkcombo.com/numberbox/com.hotcodes.numberbox/" target="_blank" rel="noopener noreferrer" class="footer-link">Direct APK Package</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <script>document.write((new Date()).getFullYear());</script> NumberBox Security Team. All rights reserved.</p>
+        <p>Hosted & Deployable on <strong>GitHub Pages</strong> 🚀</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

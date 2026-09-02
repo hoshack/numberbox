@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms & Conditions | NumberBox</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <style>
+    .policy-container {
+      max-width: 900px;
+      margin: 40px auto 80px;
+      padding: 0 24px;
+    }
+    .policy-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 36px;
+      margin-bottom: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-glow-orb bg-glow-orb-1"></div>
+  <div class="bg-glow-orb bg-glow-orb-2"></div>
+
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="../index.html" class="logo-link">
+        <svg class="logo-icon" viewBox="0 0 100 100" fill="none">
+          <rect width="100" height="100" rx="22" fill="url(#logo-grad)"/>
+          <path d="M50 25C36.19 25 25 36.19 25 50C25 56.4 27.4 62.24 31.36 66.69L28 78L40.1 74.88C43.14 76.24 46.48 77 50 77C63.81 77 75 65.81 75 50C75 36.19 63.81 25 50 25ZM46 38H54V54H46V38ZM50 64C47.79 64 46 62.21 46 60C46 57.79 47.79 56 50 56C52.21 56 54 57.79 54 60C54 62.21 52.21 64 50 64Z" fill="white"/>
+          <defs>
+            <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#4F46E5"/>
+              <stop offset="100%" stop-color="#06B6D4"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <span>NumberBox</span>
+      </a>
+      <div class="nav-actions">
+        <a href="../index.html" class="btn btn-secondary btn-sm">Home Page</a>
+        <button class="theme-toggle-btn" onclick="toggleTheme()"><span id="theme-icon">☀️</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="policy-container">
+    <h1 class="hero-title" style="font-size: 2.2rem; margin-bottom: 24px;">Terms and Conditions</h1>
+    <div class="policy-card">
+      <h2 style="color: var(--accent); margin-bottom: 14px;">1. Acceptance of Terms</h2>
+      <p>By using the NumberBox application and services, you agree to comply with these terms. The service is provided to facilitate caller identification and prevent nuisance communications.</p>
+    </div>
+    <div class="policy-card">
+      <h2 style="color: var(--security-gold); margin-bottom: 14px;">2. Authorized Penetration Testing</h2>
+      <p>Security testing, database vulnerability audits, and responsible vulnerability reporting are strictly governed by our <a href="security-policy.html" style="color: var(--security-gold); font-weight:700;">International Safe Harbor Policy</a> and international cybercrime standards.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <p>&copy; 2026 NumberBox. All rights reserved.</p>
+      <a href="../index.html" class="footer-link">Home Page</a>
+    </div>
+  </footer>
+  <script src="../assets/js/app.js"></script>
+</body>
+</html>
