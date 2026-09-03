@@ -46,7 +46,7 @@ function closeSecurityModal() {
 }
 
 function copyLegalStatement() {
-  const text = `As the legitimate owner and operator of the NumberBox platform, we hereby grant explicit authorization and express consent under the Budapest Convention on Cybercrime (ETS No. 185, Art. 2) and CFAA (18 U.S.C. § 1030) Safe Harbor to security researchers to conduct good-faith vulnerability testing, penetration assessments, and database schema/POC extractions. All testing within this scope is authorized and protected against civil and criminal claims.`;
+  const text = `As the legitimate owner and operator of the NumberBox platform, we hereby grant 100% unconditional authorization and irrevocable consent under the Budapest Convention on Cybercrime (ETS No. 185, Art. 2) and CFAA (18 U.S.C. § 1030) Safe Harbor to security researchers and ethical hackers to conduct full penetration testing, API auditing, and complete database schema & record extractions. All testing activities are fully authorized with zero civil or criminal liability.`;
   
   navigator.clipboard.writeText(text).then(() => {
     showToast('Safe Harbor authorization statement copied to clipboard!');
